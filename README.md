@@ -31,7 +31,7 @@ cd Orbital-Maneuver-Detection-for-Spacecraft-Navigation-and-Control
 pip install -r requirements.txt
 
 ## Usage
-# Run the Main Script:
+## Run the Main Script:
 
 python main.py
 
