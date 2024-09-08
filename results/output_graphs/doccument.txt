@@ -1,0 +1,27 @@
+
+### Project Summary
+
+1. **Dataset**:
+   The dataset used in this project is data/SMA_data.csv, which includes spacecraft maneuver data. This dataset contains various measurements and observations related to spacecraft movements, which are used for detecting maneuvers.
+
+2. **Graph**:
+   The graph generated and saved at results/output_graphs/maneuver_detection.png visualizes the detected maneuvers over time. It displays points where maneuvers were detected, providing a visual representation of the detection results.
+
+3. **Metrics of algorithm**:
+   The following metrics were used to evaluate the detection system:
+   - **Accuracy**: 1.0000
+   - **Precision**: 1.0000
+   - **Recall**: 1.0000
+   - **F1 Score**: 1.0000
+   - **ROC AUC**: 1.0000
+
+   These metrics indicate that the detection system performed exceptionally well, achieving perfect scores in all evaluated aspects.
+
+4. **Algorithms Used**:
+   - **Detection Algorithm**: SMA variations with adaptive thresholding.
+   - **Evaluation Algorithms**:
+     - **Accuracy Score**: Calculates the ratio of correct predictions to total predictions.
+     - **Precision Score**: Calculates the ratio of true positive predictions to the sum of true positive and false positive predictions.
+     - **Recall Score**: Calculates the ratio of true positive predictions to the sum of true positive and false negative predictions.
+     - **F1 Score**: Harmonic mean of precision and recall.
+     - **ROC AUC Score**: Measures the area under the receiver operating characteristic curve, which plots the true positive rate against the false positive rate.

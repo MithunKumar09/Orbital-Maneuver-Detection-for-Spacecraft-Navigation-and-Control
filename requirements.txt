@@ -1,0 +1,9 @@
+# Orbital Maneuver Detection
+
+This project aims to detect orbital maneuvers using semi-major axis (SMA) data from a spacecraft's orbit. The data is processed to identify points where significant changes in SMA occur, indicating potential maneuvers.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repo_url>
